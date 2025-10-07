@@ -1,0 +1,172 @@
+2025-10-07T10:15:25+07:00 | 74:25:84:c0:02:4b: [] - Connecting to MQTT broker...
+2025-10-07T10:15:25+07:00 | 74:25:84:c0:02:4b: [] - Successfully connected to MQTT broker
+2025-10-07T10:15:25+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - Subscribed to topic: iot/server/push_biometric/74:25:84:c0:02:4b
+2025-10-07T10:15:25+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_sync_bio] - {"MacAddress":"74:25:84:c0:02:4b","LstBioId":[],"DoorId":138}
+2025-10-07T10:15:25+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1188, IdNumber=040098023189, FullName=Nguyễn Doãn Hiếu
+2025-10-07T10:15:26+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1188: {"MacAddress":"74:25:84:c0:02:4b","BioId":1188,"DeviceTime":"2025-10-07T10:15:26+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:15:27+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1189, IdNumber=038094019836, FullName=Lê Khắc Minh Đức
+2025-10-07T10:15:28+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1189: {"MacAddress":"74:25:84:c0:02:4b","BioId":1189,"DeviceTime":"2025-10-07T10:15:28+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:15:29+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1190, IdNumber=027087000004, FullName=Phạm Tiến Hải
+2025-10-07T10:15:29+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1190: {"MacAddress":"74:25:84:c0:02:4b","BioId":1190,"DeviceTime":"2025-10-07T10:15:29+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:15:55+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1175, IdNumber=014093000032, FullName=Tô Thành Nam
+2025-10-07T10:15:55+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_sync_bio] - {"MacAddress":"74:25:84:c0:02:4b","LstBioId":[1188,1189,1190],"DoorId":138}
+2025-10-07T10:15:55+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1175: {"MacAddress":"74:25:84:c0:02:4b","BioId":1175,"DeviceTime":"2025-10-07T10:15:55+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:15:57+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1176, IdNumber=030099014357, FullName=Nguyễn Đình Nam
+2025-10-07T10:15:58+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1176: {"MacAddress":"74:25:84:c0:02:4b","BioId":1176,"DeviceTime":"2025-10-07T10:15:58+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:15:59+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1177, IdNumber=001073000115, FullName=Hà Nam Trung
+2025-10-07T10:15:59+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1177: {"MacAddress":"74:25:84:c0:02:4b","BioId":1177,"DeviceTime":"2025-10-07T10:15:59+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:16:01+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1178, IdNumber=685753000, FullName=Nguyễn Thu Phương
+2025-10-07T10:16:02+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1178: {"MacAddress":"74:25:84:c0:02:4b","BioId":1178,"DeviceTime":"2025-10-07T10:16:02+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:16:03+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1179, IdNumber=685774000, FullName=Lê Minh Trung Hiếu
+2025-10-07T10:16:04+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1179: {"MacAddress":"74:25:84:c0:02:4b","BioId":1179,"DeviceTime":"2025-10-07T10:16:04+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:16:05+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1180, IdNumber=024810000, FullName=Nguyễn Thu Vân
+2025-10-07T10:16:06+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1180: {"MacAddress":"74:25:84:c0:02:4b","BioId":1180,"DeviceTime":"2025-10-07T10:16:06+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:16:07+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1181, IdNumber=024424000, FullName=Bùi Thị Ngọc Ánh
+2025-10-07T10:16:07+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1181: {"MacAddress":"74:25:84:c0:02:4b","BioId":1181,"DeviceTime":"2025-10-07T10:16:07+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:16:08+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1183, IdNumber=03687000166, FullName=Nguyễn Khánh Toàn
+2025-10-07T10:16:09+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1183: {"MacAddress":"74:25:84:c0:02:4b","BioId":1183,"DeviceTime":"2025-10-07T10:16:09+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:16:10+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1184, IdNumber=030087000014, FullName=Đào Đình Nam
+2025-10-07T10:16:10+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1184: {"MacAddress":"74:25:84:c0:02:4b","BioId":1184,"DeviceTime":"2025-10-07T10:16:10+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:16:11+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1185, IdNumber=001197002276, FullName=Nguyễn Ngọc Quỳnh
+2025-10-07T10:16:12+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1185: {"MacAddress":"74:25:84:c0:02:4b","BioId":1185,"DeviceTime":"2025-10-07T10:16:12+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:16:13+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1186, IdNumber=025200000749, FullName=Hoàng Thanh Tung
+2025-10-07T10:16:13+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1186: {"MacAddress":"74:25:84:c0:02:4b","BioId":1186,"DeviceTime":"2025-10-07T10:16:13+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:16:15+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1187, IdNumber=001086000470, FullName=Trần Cao Sơn
+2025-10-07T10:16:15+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1187: {"MacAddress":"74:25:84:c0:02:4b","BioId":1187,"DeviceTime":"2025-10-07T10:16:15+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:16:16+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1188, IdNumber=040098023189, FullName=Nguyễn Doãn Hiếu
+2025-10-07T10:16:17+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1188: {"MacAddress":"74:25:84:c0:02:4b","BioId":1188,"DeviceTime":"2025-10-07T10:16:17+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:16:18+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1189, IdNumber=038094019836, FullName=Lê Khắc Minh Đức
+2025-10-07T10:16:18+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1189: {"MacAddress":"74:25:84:c0:02:4b","BioId":1189,"DeviceTime":"2025-10-07T10:16:18+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:16:20+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1190, IdNumber=027087000004, FullName=Phạm Tiến Hải
+2025-10-07T10:16:20+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1190: {"MacAddress":"74:25:84:c0:02:4b","BioId":1190,"DeviceTime":"2025-10-07T10:16:20+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:16:25+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_sync_bio] - {"MacAddress":"74:25:84:c0:02:4b","LstBioId":[1176,1178,1179,1181,1188,1189,1175,1177,1184,1187,1190,1183,1185,1186,1180],"DoorId":138}
+2025-10-07T10:16:48+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1176, IdNumber=030099014357, FullName=Nguyễn Đình Nam
+2025-10-07T10:16:49+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1176: {"MacAddress":"74:25:84:c0:02:4b","BioId":1176,"DeviceTime":"2025-10-07T10:16:49+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:16:50+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1177, IdNumber=001073000115, FullName=Hà Nam Trung
+2025-10-07T10:16:50+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1177: {"MacAddress":"74:25:84:c0:02:4b","BioId":1177,"DeviceTime":"2025-10-07T10:16:50+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:16:51+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1178, IdNumber=685753000, FullName=Nguyễn Thu Phương
+2025-10-07T10:16:52+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1178: {"MacAddress":"74:25:84:c0:02:4b","BioId":1178,"DeviceTime":"2025-10-07T10:16:52+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:16:53+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1179, IdNumber=685774000, FullName=Lê Minh Trung Hiếu
+2025-10-07T10:16:53+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1179: {"MacAddress":"74:25:84:c0:02:4b","BioId":1179,"DeviceTime":"2025-10-07T10:16:53+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:16:54+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1180, IdNumber=024810000, FullName=Nguyễn Thu Vân
+2025-10-07T10:16:55+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1180: {"MacAddress":"74:25:84:c0:02:4b","BioId":1180,"DeviceTime":"2025-10-07T10:16:55+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:16:55+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_sync_bio] - {"MacAddress":"74:25:84:c0:02:4b","LstBioId":[1188,1189,1175,1177,1184,1187,1190,1183,1185,1186,1180,1176,1178,1179,1181],"DoorId":138}
+2025-10-07T10:16:56+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1181, IdNumber=024424000, FullName=Bùi Thị Ngọc Ánh
+2025-10-07T10:16:57+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1181: {"MacAddress":"74:25:84:c0:02:4b","BioId":1181,"DeviceTime":"2025-10-07T10:16:57+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:16:58+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1183, IdNumber=03687000166, FullName=Nguyễn Khánh Toàn
+2025-10-07T10:16:58+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1183: {"MacAddress":"74:25:84:c0:02:4b","BioId":1183,"DeviceTime":"2025-10-07T10:16:58+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:16:59+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1184, IdNumber=030087000014, FullName=Đào Đình Nam
+2025-10-07T10:17:00+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1184: {"MacAddress":"74:25:84:c0:02:4b","BioId":1184,"DeviceTime":"2025-10-07T10:17:00+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:17:01+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1185, IdNumber=001197002276, FullName=Nguyễn Ngọc Quỳnh
+2025-10-07T10:17:02+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1185: {"MacAddress":"74:25:84:c0:02:4b","BioId":1185,"DeviceTime":"2025-10-07T10:17:02+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:17:03+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1186, IdNumber=025200000749, FullName=Hoàng Thanh Tung
+2025-10-07T10:17:03+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1186: {"MacAddress":"74:25:84:c0:02:4b","BioId":1186,"DeviceTime":"2025-10-07T10:17:03+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:17:04+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1187, IdNumber=001086000470, FullName=Trần Cao Sơn
+2025-10-07T10:17:05+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1187: {"MacAddress":"74:25:84:c0:02:4b","BioId":1187,"DeviceTime":"2025-10-07T10:17:05+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:17:06+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1188, IdNumber=040098023189, FullName=Nguyễn Doãn Hiếu
+2025-10-07T10:17:06+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1188: {"MacAddress":"74:25:84:c0:02:4b","BioId":1188,"DeviceTime":"2025-10-07T10:17:06+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:17:08+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1189, IdNumber=038094019836, FullName=Lê Khắc Minh Đức
+2025-10-07T10:17:08+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1189: {"MacAddress":"74:25:84:c0:02:4b","BioId":1189,"DeviceTime":"2025-10-07T10:17:08+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:17:10+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1190, IdNumber=027087000004, FullName=Phạm Tiến Hải
+2025-10-07T10:17:10+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1190: {"MacAddress":"74:25:84:c0:02:4b","BioId":1190,"DeviceTime":"2025-10-07T10:17:10+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:17:12+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1191, IdNumber=034081000003, FullName=Nguyễn Tuấn Anh
+2025-10-07T10:17:12+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1191: {"MacAddress":"74:25:84:c0:02:4b","BioId":1191,"DeviceTime":"2025-10-07T10:17:12+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:17:25+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_sync_bio] - {"MacAddress":"74:25:84:c0:02:4b","LstBioId":[1180,1176,1178,1179,1181,1188,1189,1175,1177,1184,1187,1191,1190,1183,1185,1186],"DoorId":138}
+2025-10-07T10:17:40+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1132, IdNumber=030094005836, FullName=Phạm Quang Hiếu
+2025-10-07T10:17:41+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1132: {"MacAddress":"74:25:84:c0:02:4b","BioId":1132,"DeviceTime":"2025-10-07T10:17:41+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:17:42+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1138, IdNumber=001080048966, FullName=Nguyễn Việt Cường
+2025-10-07T10:17:42+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1138: {"MacAddress":"74:25:84:c0:02:4b","BioId":1138,"DeviceTime":"2025-10-07T10:17:42+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:17:43+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1139, IdNumber=036202005601, FullName=Nguyễn Văn Minh
+2025-10-07T10:17:44+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1139: {"MacAddress":"74:25:84:c0:02:4b","BioId":1139,"DeviceTime":"2025-10-07T10:17:44+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:17:45+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1154, IdNumber=051086010160, FullName=Don Nguyen
+2025-10-07T10:17:46+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1154: {"MacAddress":"74:25:84:c0:02:4b","BioId":1154,"DeviceTime":"2025-10-07T10:17:46+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:17:47+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1155, IdNumber=09120931901, FullName=Hung
+2025-10-07T10:17:48+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1155: {"MacAddress":"74:25:84:c0:02:4b","BioId":1155,"DeviceTime":"2025-10-07T10:17:48+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:17:50+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1158, IdNumber=189289191829, FullName=Sơn
+2025-10-07T10:17:50+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1158: {"MacAddress":"74:25:84:c0:02:4b","BioId":1158,"DeviceTime":"2025-10-07T10:17:50+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:17:53+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1159, IdNumber=001084043633, FullName=Hoàng Văn Hiệp
+2025-10-07T10:17:54+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1159: {"MacAddress":"74:25:84:c0:02:4b","BioId":1159,"DeviceTime":"2025-10-07T10:17:54+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:17:55+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1160, IdNumber=9819821981, FullName=Nguyễn Văn Quý
+2025-10-07T10:17:55+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_sync_bio] - {"MacAddress":"74:25:84:c0:02:4b","LstBioId":[1189,1175,1177,1184,1187,1191,1138,1190,1183,1185,1186,1132,1154,1180,1139,1155,1158,1176,1178,1179,1181,1159,1188],"DoorId":138}
+2025-10-07T10:17:55+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1160: {"MacAddress":"74:25:84:c0:02:4b","BioId":1160,"DeviceTime":"2025-10-07T10:17:55+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:17:57+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1168, IdNumber=030094005836, FullName=Phạm Quang Hiếu
+2025-10-07T10:17:57+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1168: {"MacAddress":"74:25:84:c0:02:4b","BioId":1168,"DeviceTime":"2025-10-07T10:17:57+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:17:58+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1169, IdNumber=030081000022, FullName=La The Vinh
+2025-10-07T10:17:59+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1169: {"MacAddress":"74:25:84:c0:02:4b","BioId":1169,"DeviceTime":"2025-10-07T10:17:59+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:18:00+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1170, IdNumber=044202004037, FullName=Mai Xuan Ngoc
+2025-10-07T10:18:00+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1170: {"MacAddress":"74:25:84:c0:02:4b","BioId":1170,"DeviceTime":"2025-10-07T10:18:00+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:18:01+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1171, IdNumber=027201004495, FullName=Nguyễn Thái Tân 
+2025-10-07T10:18:02+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1171: {"MacAddress":"74:25:84:c0:02:4b","BioId":1171,"DeviceTime":"2025-10-07T10:18:02+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:18:03+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1172, IdNumber=038085001234, FullName=Hoàng Văn Dũng
+2025-10-07T10:18:04+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1172: {"MacAddress":"74:25:84:c0:02:4b","BioId":1172,"DeviceTime":"2025-10-07T10:18:04+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:18:05+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1173, IdNumber=024086000311, FullName=Lê Xuân Quỳnh
+2025-10-07T10:18:05+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1173: {"MacAddress":"74:25:84:c0:02:4b","BioId":1173,"DeviceTime":"2025-10-07T10:18:05+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:18:07+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1174, IdNumber=034081000027, FullName=Trần Văn Hải
+2025-10-07T10:18:07+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1174: {"MacAddress":"74:25:84:c0:02:4b","BioId":1174,"DeviceTime":"2025-10-07T10:18:07+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:18:25+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_sync_bio] - {"MacAddress":"74:25:84:c0:02:4b","LstBioId":[1178,1159,1188,1175,1177,1184,1187,1191,1138,1190,1183,1132,1174,1180,1155,1176,1179,1181,1173,1189,1154,1169,1172,1185,1186,1168,1171,1139,1158,1160,1170],"DoorId":138}
+2025-10-07T10:18:55+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_sync_bio] - {"MacAddress":"74:25:84:c0:02:4b","LstBioId":[1171,1139,1158,1160,1170,1178,1159,1188,1175,1177,1184,1187,1191,1138,1190,1183,1132,1174,1180,1155,1176,1179,1181,1173,1189,1154,1169,1172,1185,1186,1168],"DoorId":138}
+2025-10-07T10:19:04+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1132, IdNumber=030094005836, FullName=Phạm Quang Hiếu
+2025-10-07T10:19:04+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1132: {"MacAddress":"74:25:84:c0:02:4b","BioId":1132,"DeviceTime":"2025-10-07T10:19:04+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:19:06+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1138, IdNumber=001080048966, FullName=Nguyễn Việt Cường
+2025-10-07T10:19:06+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1138: {"MacAddress":"74:25:84:c0:02:4b","BioId":1138,"DeviceTime":"2025-10-07T10:19:06+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:19:07+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1139, IdNumber=036202005601, FullName=Nguyễn Văn Minh
+2025-10-07T10:19:08+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1139: {"MacAddress":"74:25:84:c0:02:4b","BioId":1139,"DeviceTime":"2025-10-07T10:19:08+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:19:09+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1154, IdNumber=051086010160, FullName=Don Nguyen
+2025-10-07T10:19:09+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1154: {"MacAddress":"74:25:84:c0:02:4b","BioId":1154,"DeviceTime":"2025-10-07T10:19:09+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:19:11+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1155, IdNumber=09120931901, FullName=Hung
+2025-10-07T10:19:11+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1155: {"MacAddress":"74:25:84:c0:02:4b","BioId":1155,"DeviceTime":"2025-10-07T10:19:11+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:19:12+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1158, IdNumber=189289191829, FullName=Sơn
+2025-10-07T10:19:13+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1158: {"MacAddress":"74:25:84:c0:02:4b","BioId":1158,"DeviceTime":"2025-10-07T10:19:13+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:19:15+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1159, IdNumber=001084043633, FullName=Hoàng Văn Hiệp
+2025-10-07T10:19:16+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1159: {"MacAddress":"74:25:84:c0:02:4b","BioId":1159,"DeviceTime":"2025-10-07T10:19:16+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:19:17+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1160, IdNumber=9819821981, FullName=Nguyễn Văn Quý
+2025-10-07T10:19:18+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1160: {"MacAddress":"74:25:84:c0:02:4b","BioId":1160,"DeviceTime":"2025-10-07T10:19:18+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:19:19+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1168, IdNumber=030094005836, FullName=Phạm Quang Hiếu
+2025-10-07T10:19:19+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1168: {"MacAddress":"74:25:84:c0:02:4b","BioId":1168,"DeviceTime":"2025-10-07T10:19:19+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:19:20+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1169, IdNumber=030081000022, FullName=La The Vinh
+2025-10-07T10:19:21+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1169: {"MacAddress":"74:25:84:c0:02:4b","BioId":1169,"DeviceTime":"2025-10-07T10:19:21+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:19:22+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1170, IdNumber=044202004037, FullName=Mai Xuan Ngoc
+2025-10-07T10:19:22+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1170: {"MacAddress":"74:25:84:c0:02:4b","BioId":1170,"DeviceTime":"2025-10-07T10:19:22+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:19:24+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1171, IdNumber=027201004495, FullName=Nguyễn Thái Tân 
+2025-10-07T10:19:24+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1171: {"MacAddress":"74:25:84:c0:02:4b","BioId":1171,"DeviceTime":"2025-10-07T10:19:24+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:19:25+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1172, IdNumber=038085001234, FullName=Hoàng Văn Dũng
+2025-10-07T10:19:25+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_sync_bio] - {"MacAddress":"74:25:84:c0:02:4b","LstBioId":[1180,1155,1176,1179,1181,1173,1189,1154,1169,1172,1185,1186,1168,1171,1139,1158,1160,1170,1178,1159,1188,1175,1177,1184,1187,1191,1138,1190,1183,1132,1174],"DoorId":138}
+2025-10-07T10:19:26+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1172: {"MacAddress":"74:25:84:c0:02:4b","BioId":1172,"DeviceTime":"2025-10-07T10:19:26+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:19:27+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1173, IdNumber=024086000311, FullName=Lê Xuân Quỳnh
+2025-10-07T10:19:27+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1173: {"MacAddress":"74:25:84:c0:02:4b","BioId":1173,"DeviceTime":"2025-10-07T10:19:27+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:19:28+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1174, IdNumber=034081000027, FullName=Trần Văn Hải
+2025-10-07T10:19:29+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1174: {"MacAddress":"74:25:84:c0:02:4b","BioId":1174,"DeviceTime":"2025-10-07T10:19:29+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:19:55+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_sync_bio] - {"MacAddress":"74:25:84:c0:02:4b","LstBioId":[1178,1159,1188,1175,1177,1184,1187,1191,1138,1190,1183,1132,1174,1180,1155,1176,1179,1181,1173,1189,1154,1169,1172,1185,1186,1168,1171,1139,1158,1160,1170],"DoorId":138}
+2025-10-07T10:20:25+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_sync_bio] - {"MacAddress":"74:25:84:c0:02:4b","LstBioId":[1188,1175,1177,1184,1187,1191,1138,1190,1183,1132,1174,1180,1155,1176,1179,1181,1173,1189,1154,1169,1172,1185,1186,1168,1171,1139,1158,1160,1170,1178,1159],"DoorId":138}
+2025-10-07T10:20:26+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1132, IdNumber=030094005836, FullName=Phạm Quang Hiếu
+2025-10-07T10:20:26+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1132: {"MacAddress":"74:25:84:c0:02:4b","BioId":1132,"DeviceTime":"2025-10-07T10:20:26+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:20:27+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1138, IdNumber=001080048966, FullName=Nguyễn Việt Cường
+2025-10-07T10:20:28+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1138: {"MacAddress":"74:25:84:c0:02:4b","BioId":1138,"DeviceTime":"2025-10-07T10:20:28+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:20:29+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1139, IdNumber=036202005601, FullName=Nguyễn Văn Minh
+2025-10-07T10:20:30+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1139: {"MacAddress":"74:25:84:c0:02:4b","BioId":1139,"DeviceTime":"2025-10-07T10:20:30+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:20:31+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1154, IdNumber=051086010160, FullName=Don Nguyen
+2025-10-07T10:20:31+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1154: {"MacAddress":"74:25:84:c0:02:4b","BioId":1154,"DeviceTime":"2025-10-07T10:20:31+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:20:33+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1155, IdNumber=09120931901, FullName=Hung
+2025-10-07T10:20:33+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1155: {"MacAddress":"74:25:84:c0:02:4b","BioId":1155,"DeviceTime":"2025-10-07T10:20:33+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:20:34+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1158, IdNumber=189289191829, FullName=Sơn
+2025-10-07T10:20:35+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1158: {"MacAddress":"74:25:84:c0:02:4b","BioId":1158,"DeviceTime":"2025-10-07T10:20:35+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:20:37+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1159, IdNumber=001084043633, FullName=Hoàng Văn Hiệp
+2025-10-07T10:20:38+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1159: {"MacAddress":"74:25:84:c0:02:4b","BioId":1159,"DeviceTime":"2025-10-07T10:20:38+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:20:39+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1160, IdNumber=9819821981, FullName=Nguyễn Văn Quý
+2025-10-07T10:20:39+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1160: {"MacAddress":"74:25:84:c0:02:4b","BioId":1160,"DeviceTime":"2025-10-07T10:20:39+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:20:40+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1168, IdNumber=030094005836, FullName=Phạm Quang Hiếu
+2025-10-07T10:20:41+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1168: {"MacAddress":"74:25:84:c0:02:4b","BioId":1168,"DeviceTime":"2025-10-07T10:20:41+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:20:42+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1169, IdNumber=030081000022, FullName=La The Vinh
+2025-10-07T10:20:42+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1169: {"MacAddress":"74:25:84:c0:02:4b","BioId":1169,"DeviceTime":"2025-10-07T10:20:42+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:20:43+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1170, IdNumber=044202004037, FullName=Mai Xuan Ngoc
+2025-10-07T10:20:44+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1170: {"MacAddress":"74:25:84:c0:02:4b","BioId":1170,"DeviceTime":"2025-10-07T10:20:44+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:20:45+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1171, IdNumber=027201004495, FullName=Nguyễn Thái Tân 
+2025-10-07T10:20:46+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1171: {"MacAddress":"74:25:84:c0:02:4b","BioId":1171,"DeviceTime":"2025-10-07T10:20:46+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:20:47+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1172, IdNumber=038085001234, FullName=Hoàng Văn Dũng
+2025-10-07T10:20:48+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1172: {"MacAddress":"74:25:84:c0:02:4b","BioId":1172,"DeviceTime":"2025-10-07T10:20:48+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:20:50+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1173, IdNumber=024086000311, FullName=Lê Xuân Quỳnh
+2025-10-07T10:20:50+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1173: {"MacAddress":"74:25:84:c0:02:4b","BioId":1173,"DeviceTime":"2025-10-07T10:20:50+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:20:52+07:00 | 74:25:84:c0:02:4b: [iot/server/push_biometric/74:25:84:c0:02:4b] - BioID=1174, IdNumber=034081000027, FullName=Trần Văn Hải
+2025-10-07T10:20:52+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_received_bio] - Published ACK for bio 1174: {"MacAddress":"74:25:84:c0:02:4b","BioId":1174,"DeviceTime":"2025-10-07T10:20:52+07:00","CmdType":"NEW_BIO"}
+2025-10-07T10:20:55+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_sync_bio] - {"MacAddress":"74:25:84:c0:02:4b","LstBioId":[1189,1154,1169,1172,1185,1186,1168,1171,1139,1158,1160,1170,1178,1159,1188,1175,1177,1184,1187,1191,1138,1190,1183,1132,1174,1180,1155,1176,1179,1181,1173],"DoorId":138}
+2025-10-07T10:21:25+07:00 | 74:25:84:c0:02:4b: [iot/devices/device_sync_bio] - {"MacAddress":"74:25:84:c0:02:4b","LstBioId":[1139,1158,1160,1170,1178,1159,1188,1175,1177,1184,1187,1191,1138,1190,1183,1132,1174,1180,1155,1176,1179,1181,1173,1189,1154,1169,1172,1185,1186,1168,1171],"DoorId":138}
