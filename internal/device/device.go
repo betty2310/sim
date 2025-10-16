@@ -25,6 +25,7 @@ type Device struct {
 	stopChan        chan struct{}
 	mutex           sync.RWMutex
 	wg              sync.WaitGroup
+	sync            bool
 }
 
 func NewSimulateDevice(mac string, doorId int, cfg *config.Config) (*Device, error) {
@@ -37,6 +38,7 @@ func NewSimulateDevice(mac string, doorId int, cfg *config.Config) (*Device, err
 		receiveBioTopic: "iot/devices/device_received_bio",
 		biometrics:      make(map[int]struct{}),
 		stopChan:        make(chan struct{}),
+		sync:            true,
 	}
 
 	opts := mqtt.NewClientOptions()
@@ -60,7 +62,9 @@ func (d *Device) Start() error {
 		return fmt.Errorf("failed to connect to MQTT broker: %w", token.Error())
 	}
 	d.wg.Add(1)
-	go d.syncBio()
+	if d.sync {
+		go d.syncBio()
+	}
 	return nil
 }
 
@@ -107,7 +111,8 @@ func (d *Device) handleMessage(client mqtt.Client, msg mqtt.Message) {
 				return
 			}
 			utils.LogMessageToFile(d.macAddress, msg.Topic(),
-				fmt.Sprintf("BioID=%d, IdNumber=%s, FullName=%s", data.BioID, data.IDNumber, data.FullName))
+				fmt.Sprintf("BioID=%d, IdNumber=%s, FullName=%s, SyncEnds=%t", data.BioID, data.IDNumber, data.FullName, data.SyncEnded))
+			d.sync = data.SyncEnded
 
 			time.Sleep(500 * time.Millisecond)
 			d.mutex.Lock()
@@ -127,7 +132,7 @@ func (d *Device) handleMessage(client mqtt.Client, msg mqtt.Message) {
 func (d *Device) syncBio() {
 	defer d.wg.Done()
 
-	ticker := time.NewTicker(30 * time.Second)
+	ticker := time.NewTicker(10 * time.Second)
 	defer ticker.Stop()
 
 	d.pulishDeviceSyncBio()

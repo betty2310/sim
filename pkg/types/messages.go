@@ -1,9 +1,10 @@
 package types
 
 type ServerPushBiometricMessage struct {
-	BioID    int    `json:"BioId"`
-	IDNumber string `json:"IdNumber"`
-	FullName string `json:"FullName"`
+	BioID     int    `json:"BioId"`
+	IDNumber  string `json:"IdNumber"`
+	FullName  string `json:"FullName"`
+	SyncEnded bool   `json:"SyncEnded"`
 }
 
 type DeviceSyncBioMessage struct {
