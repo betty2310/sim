@@ -5,6 +5,7 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"strings"
 	"sync"
 	"time"
 )
@@ -19,8 +20,10 @@ func LogMessageToFile(mac, topic, message string) error {
 		return err
 	}
 
+	sanitizedMac := strings.ReplaceAll(mac, ":", "-")
+
 	dateStr := timestamp.Format("2006-01-02")
-	filename := filepath.Join(logsDir, fmt.Sprintf("%s_%s.log", mac, dateStr))
+	filename := filepath.Join(logsDir, fmt.Sprintf("%s_%s.log", sanitizedMac, dateStr))
 
 	mutex.Lock()
 	defer mutex.Unlock()
