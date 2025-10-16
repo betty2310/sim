@@ -62,9 +62,7 @@ func (d *Device) Start() error {
 		return fmt.Errorf("failed to connect to MQTT broker: %w", token.Error())
 	}
 	d.wg.Add(1)
-	if d.sync {
-		go d.syncBio()
-	}
+	go d.syncBio()
 	return nil
 }
 
@@ -135,12 +133,16 @@ func (d *Device) syncBio() {
 	ticker := time.NewTicker(10 * time.Second)
 	defer ticker.Stop()
 
-	d.pulishDeviceSyncBio()
+	if d.sync {
+		d.pulishDeviceSyncBio()
+	}
 
 	for {
 		select {
 		case <-ticker.C:
-			d.pulishDeviceSyncBio()
+			if d.sync {
+				d.pulishDeviceSyncBio()
+			}
 		case <-d.stopChan:
 			return
 		}
